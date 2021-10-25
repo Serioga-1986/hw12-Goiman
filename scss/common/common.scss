@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    a {
+        text-decoration: none;
+    }
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: $max-width_content;
+    margin: 0 auto;
+}

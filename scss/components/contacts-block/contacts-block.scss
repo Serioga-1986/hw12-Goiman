@@ -1,0 +1,106 @@
+.contacts-block__wraper{
+    margin-bottom: 115px;
+
+
+    .contacts-block__main {
+
+        max-width: 35%;
+
+        h3 {
+            @extend %h3;
+            padding-bottom: 15px;
+        }
+
+        div.contacts-block__line {
+            width: 30%;
+
+            hr {
+                border-color: $site-color_second;
+                margin-bottom: 70px;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .contacts-block__form-and-contacts_wraper {
+        @extend %display-flex;
+
+        form.contacts-block__form {
+            max-width: 67%;
+            @extend %display-flex;
+            margin-left: 0;
+            margin-right: 0;
+
+            p {
+                width: 50%;
+                padding-right: 55px;
+                padding-bottom: 35px;
+
+                input {
+                    border: none;
+                    padding: 20px 10px 20px 50px;
+                    border-radius: 10px;
+                    width: 100%;
+                    font-size: 18px;
+                    background-color: $inputs-color;
+                }
+            }
+
+            textarea {
+                border: none;
+                padding: 20px 10px 20px 50px;
+                border-radius: 10px;
+                width: 100%;
+                font-size: 18px;
+                background-color: $inputs-color;
+                margin-right: 55px;
+                margin-bottom: 50px;
+            }
+
+            button {
+                width: 100%;
+                background: $site-color_second;
+                color: white;
+                text-transform: uppercase;
+                padding: 20px 70px;
+                border-radius: 10px;
+                border: none;
+                font-size: 16px;
+                font-weight: bold;
+                margin-right: 55px;
+    
+                &:hover {
+                    transition: .5s;
+                    background: white;
+                    color: $site-color_second;
+                    border: $site-color_second 2px solid;
+                    border-radius: 15px;
+                    box-shadow: 5px 5px 5px 5px white;
+                }
+            }
+        }
+
+        div.contacts-block__contacts-wraper {
+            max-width: 33%;
+            background-color: $site-color_first;
+            margin-top: 10px;
+            color: white;
+            padding-left: 75px;
+            
+            div.contacts-block__contacts{
+                                
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+
+            }
+        }
+    }
+
+}

@@ -1,0 +1,99 @@
+.our-team__wraper{
+    margin-bottom: 50px;
+
+
+    .our-team__main {
+
+        max-width: 35%;
+
+        h3 {
+            @extend %h3;
+        }
+
+        div.our-team__line {
+            width: 30%;
+
+            hr {
+                border-color: $site-color_second;
+                margin-bottom: 70px;
+                margin-top: 30px;
+            }
+        }
+        
+    }
+
+    .our-team__description {
+        @extend %display-flex;
+    }
+
+    .our-team__description-pic {
+        width: 30%;
+    }
+
+    .our-team__description-pic-bg {
+        background-color: $top-blocks_bg-color;
+        margin-right: 70px;
+        height: 460px;
+        width: 320px;
+    }
+
+    .our-team__description-team {
+        width: 70%;
+
+        h3 {
+            font-size: 30px;
+            font-weight:500;
+            color: $site-color_first;
+            text-transform: uppercase;
+            padding: 0;
+            margin: 0;
+        }
+
+        p {
+            padding: 30px 0 50px;
+            margin: 0
+        }
+
+        .our-team__description-team_soc-network {
+            @extend %display-flex;
+            margin-bottom: 75px;
+
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                
+                    a {
+                        font-weight: bold;
+                        font-style: italic;
+                        padding-right: 30px;
+
+                        &:hover {
+                            color: blue;
+                            transition: .5s;
+                        }
+
+                    }
+            }
+
+        }
+
+        .our-team__description-team-profiles {
+            @extend %display-flex;
+
+            .our-team__description-team-profiles-photo-wrap {
+                max-width: 25%;
+
+                .our-team__description-team-profiles-photo {
+                    height: 210px;
+                    width: 190px;
+                    background-color: $top-blocks_bg-color;
+                    margin-right: 30px;
+                }
+            }
+        }
+
+    }
+
+}
