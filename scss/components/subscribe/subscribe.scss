@@ -28,7 +28,7 @@
             padding-bottom: 140px;
             @extend %display-flex;
 
-            p {
+            label {
                 max-width: 70%;
                 padding-right: 20px;
                 padding-bottom: 0;
@@ -43,12 +43,12 @@
             }
 
             button {
-                max-width: 30%;
+                width: 30%;
                 background: $site-color_second;
                 color: white;
                 text-transform: uppercase;
                 padding: 20px 70px;
-                border:none;
+                border: 2px solid transparent;
                 border-radius: 10px;
                 font-size: 16px;
                 font-weight: bold;
@@ -63,8 +63,5 @@
                 }
             }
         }
-
-        
-
     }
 }

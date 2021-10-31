@@ -1,0 +1,4 @@
+@mixin big-button-style($width) {
+    width: $width;
+    @extend %big-button-style;
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
     <title>Document</title>
 </head>
@@ -11,34 +11,31 @@
 
     <header>
         <div class="menu container">
-            <nav>
+            
                 <ul>
                     <li>
                         <a href="#" class="menu-point">Home</a>
                     </li>
                 </ul>
-            </nav>
-            <nav>
+            
                 <ul>
                     <li>
                         <a href="#" class="menu-point">Portfolio</a>
                     </li>
                 </ul>
-            </nav>
-            <nav>
+            
                 <ul>
                     <li>
                         <a href="#" class="menu-point">About us</a>
                     </li>
                 </ul>
-            </nav>
-            <nav>
+            
                 <ul>
                     <li>
                         <a href="#" class="menu-point">Contacts</a>
                     </li>
                 </ul>
-            </nav>
+            
         </div>
     </header>
 
@@ -68,25 +65,25 @@
 
                 <div class="block-possibilities__services">
                     <div class="service">
-                        <img src=".//.//scss/images/Settings.svg" alt="Settings">
+                        <img src="./images/Settings.svg" alt="Settings">
                         <h3 class="service">Managment</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam incidunt odit quam earum, aperiam distinctio optio rem aliquid amet quod, repellat, suscipit ipsum doloribus iusto?</p>
                     </div>
 
                     <div class="service">
-                        <img src=".//.//scss/images/Pencil.svg" alt="Design">
+                        <img src="./images/Pencil.svg" alt="Design">
                         <h3 class="service">UI/UX Design</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam incidunt odit quam earum, aperiam distinctio optio rem aliquid amet quod, repellat, suscipit ipsum doloribus iusto?</p>
                     </div>
 
                     <div class="service">
-                        <img src=".//.//scss/images/Diamond.svg" alt="Branding">
+                        <img src="./images/Diamond.svg" alt="Branding">
                         <h3 class="service">Logo/Branding</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam incidunt odit quam earum, aperiam distinctio optio rem aliquid amet quod, repellat, suscipit ipsum doloribus iusto?</p>
                     </div>
 
                     <div class="service">
-                        <img src=".//.//scss/images/Truck.svg" alt="Animation">
+                        <img src="./images/Truck.svg" alt="Animation">
                         <h3 class="service">Animation</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam incidunt odit quam earum, aperiam distinctio optio rem aliquid amet quod, repellat, suscipit ipsum doloribus iusto?</p>
                     </div>
@@ -94,7 +91,6 @@
                 <hr>
             </div>
         </div>
-
 
         <div class="products">
 
@@ -106,31 +102,25 @@
                 </div>
 
                 <div class="navigation-in-products">
-                    <nav>
-                        <ul>
-                            <li><a href="#">All</a></li>
-                        </ul>
-                    </nav>
-                    <nav>
-                        <ul>
-                            <li><a href="#">Print template</a></li>
-                        </ul>
-                    </nav>
-                    <nav>
-                        <ul>
-                            <li><a href="#">Web template</a></li>
-                        </ul>
-                    </nav>
-                    <nav>
-                        <ul>
-                            <li><a href="#">User interface</a></li>
-                        </ul>
-                    </nav>
-                    <nav>
-                        <ul>
-                            <li><a href="#">Mock-up</a></li>
-                        </ul>
-                    </nav>
+                    <ul>
+                        <li><a href="#">All</a></li>
+                    </ul>
+
+                    <ul>
+                        <li><a href="#">Print template</a></li>
+                    </ul>
+                    
+                    <ul>
+                        <li><a href="#">Web template</a></li>
+                    </ul>
+                    
+                    <ul>
+                        <li><a href="#">User interface</a></li>
+                    </ul>
+                    
+                    <ul>
+                        <li><a href="#">Mock-up</a></li>
+                    </ul>
                 </div>
 
                 <div class="product-images">
@@ -207,9 +197,9 @@
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, reprehenderit?</p>
 
-                <form class="subscribe__email" action="id001">
-                    <p><input type="email" form="id001" placeholder="enter your email"></p>
-                    <button form="id001">subscribe</button>
+                <form class="subscribe__email">
+                    <label><input type="email" form="id001" placeholder="enter your email"></label>
+                    <button>subscribe</button>
 
                 </form>
             </div>
@@ -227,10 +217,14 @@
             
                 <div class="contacts-block__form-and-contacts_wraper">
 
-                    <form class="contacts-block__form" action="id002">
-                        <p><input type="text" form="id002" placeholder="Name"></p>
-                        <p><input type="email" form="id003" placeholder="Your mail"></p>
-                        <textarea name="message" cols="30" rows="10">Type your message</textarea>
+                    <form class="contacts-block__form">
+                        <label>
+                            <input type="text" placeholder="Name">
+                        </label>
+                        <label>
+                            <input type="email" placeholder="Your mail">
+                        </label>
+                        <textarea name="message" cols="30" rows="10" placeholder="Type your message"></textarea>
                         <button form="id002 id003">Send message</button>
 
                     </form>
@@ -268,34 +262,34 @@
 
                     <div class="footer_network-links">
 
-                            <nav>
+                            
                                 <ul>
                                     <li>
-                                        <a href="#" class="footer_network-links_twitter"><img src=".//scss/images/Twitter_Rounded_Solid.png" alt="Twitter"></a>
+                                        <a href="#" class="footer_network-links_twitter"><img src="./images/Twitter_Rounded_Solid.png" alt="Twitter"></a>
                                     </li>
                                 </ul>
-                            </nav>
-                            <nav>
+                            
+                            
                                 <ul>
                                     <li>
-                                        <a href="#" class="footer_network-links_likedin"><img src=".//scss/images/LinkedIn_Rounded_Solid.png" alt="LinkedIn"></a>
+                                        <a href="#" class="footer_network-links_likedin"><img src="./images/LinkedIn_Rounded_Solid.png" alt="LinkedIn"></a>
                                     </li>
                                 </ul>
-                            </nav>
-                            <nav>
+                            
+                            
                                 <ul>
                                     <li>
-                                        <a href="#" class="footer_network-links_google"><img src=".//scss/images/Google_Rounded_Solid.png" alt="Google"></a>
+                                        <a href="#" class="footer_network-links_google"><img src="./images/Google_Rounded_Solid.png" alt="Google"></a>
                                     </li>
                                 </ul>
-                            </nav>
-                            <nav>
+                            
+                            
                                 <ul>
                                     <li>
-                                        <a href="#" class="footer_network-links_facebook"><img src=".//scss/images/Facebook_Rounded_Solid.png" alt="Facebook"></a>
+                                        <a href="#" class="footer_network-links_facebook"><img src="./images/Facebook_Rounded_Solid.png" alt="Facebook"></a>
                                     </li>
                                 </ul>
-                            </nav>
+                            
 
                     </div>
 
