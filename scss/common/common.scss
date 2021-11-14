@@ -14,3 +14,27 @@ body {
     max-width: $max-width_content;
     margin: 0 auto;
 }
+
+@media(max-width: $bp_xxl) {
+    .container {
+        width: $max-width_content;
+    }
+}
+
+@media(max-width: $bp_xl) {
+    .container {
+        width: $bp_lg;
+    }
+}
+
+@media(max-width: $bp_lg) {
+    .container {
+        width: $bp_md;
+    }
+}
+
+@media(max-width: $bp_md) {
+    .container {
+        width: $bp_sm;
+    }
+}
